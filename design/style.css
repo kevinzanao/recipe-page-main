@@ -14,6 +14,42 @@
 
     /* fonts */
     --paragraph: 16px;
-    --family1: "Young serif", serif;
-    --family2: "Outfit", sans-serif;
+    --title-font: "Young serif", serif;
+    --paragraph-font: "Outfit", sans-serif;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 375px;
+    font-family: var(--paragraph-font);
+}
+
+.content h1, .content h2{
+    font-family: var(--title-font);
+}
+
+.basic-description {
+    /* width: 100%; */
+}
+
+.basic-description img {
+    width: 100%;
+}
+
+.basic-description h1 {
+    color: var(--stone900);
+}
+
+.basic-description p {
+    color: var(--stone600);
+}
+
+.basic-description .preparation-time h3 {
+    color: var(--rose800);
+}
+
